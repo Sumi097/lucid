@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="js/owl.theme.default.min.css">
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- media css  -->
+    <link rel="stylesheet" href="css/media.css">
     <!-- font css -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +27,7 @@
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"><img src="image/logo.png" class="img-fluid" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-icon"> <i class="fa-solid fa-bars"></i></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -60,7 +62,7 @@
 <a href="" class="btn btn_download view_btn">view features </a>
 
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 image_pic">
                 <img src="image/phone.png" class="img-fluid" alt="">
             </div>
         </div>
@@ -500,11 +502,18 @@
     <script src="js/owl.carousel.min.js"></script>
     <script>$(document).ready(function(){
       $(".owl-carousel").owlCarousel({
-        items:2,
+        items:1,
         loop:true,
         autoplay:true,
         autoplayTimeout:5000,
         margin:20,
+        responsive : {
+   
+    768 : {
+      items:2,
+ 
+    }
+}
       });
     });</script>
   </body>
