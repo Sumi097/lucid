@@ -140,6 +140,19 @@ header p{
     letter-spacing: 2px;
     margin-bottom: 10px;
 }
+.image_pic{
+
+}
+.navbar-icon{
+    color: #fff;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler:focus .navbar-icon span{
+    color: #0099e1;
+}
+
 .heading span{
         display: block;
         height: 2px;
@@ -332,7 +345,11 @@ color: #fff;
     
 font-weight: 700;
 }
-.owl-dots{display: flex;justify-content: center;margin-top: 84px;}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
+}
 .owl-dots .owl-dot span{
 width: 10px;
 height: 10px;
@@ -476,14 +493,10 @@ margin-bottom: 20px;
     margin-left: 1px;
 }
 .contact_section:hover p{
-    color: #000;
+   
 }
 
-.contact_section:hover .i_icon{
-    border: 1px solid #008ed6;
-    background-color: #008ed6;
-    color: #fff;
-}
+
 .form{
 
 background: #000;
@@ -590,5 +603,5 @@ font-size: 14px;
 font-weight: 600;
 }
 footer:hover p{
-    color: #0099e1;
+
 }

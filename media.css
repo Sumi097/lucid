@@ -1,0 +1,188 @@
+@media (max-width: 575px) {
+    .image_pic {
+        display: none;
+    }
+    .height {
+
+        text-align: center;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-item {
+        margin: 10px 0;
+        display: inline-flex;
+        justify-content: center;
+    }
+    .feature_content {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    .feature_content p {
+        font-size: 18px;
+       
+    }
+    .feature_content h3 { 
+        font-size: 28px;
+
+    }
+    .phone{
+        width: 50%;
+        margin: auto;
+    }
+    
+.heading {
+    text-align: center !important;
+}
+.details_section .heading span {
+    margin: auto;
+}
+
+.details_section p {
+    margin-bottom: 50px;
+   
+}
+.details_section ul {
+    margin: auto;
+    width: 30%;
+}
+.details_section ul li .list_icon {
+    width: 25px;
+    margin-right: 11px;
+    font-size: 17px;
+}
+.customize_section .heading span {
+    margin: auto;
+
+}
+.testimonial_section p {
+    text-align: center;
+}
+.client_details {
+    justify-content: center;
+}
+.details p {
+  
+    text-align: start;
+}
+.heading span {
+    margin-bottom: 0;
+   }
+   .text-end {
+    text-align: center !important;
+    margin-top: 36px;
+}
+.price_table {
+    margin-bottom: 60px;
+}
+.left {
+    margin-left: 1px;
+    margin-bottom: 190px;
+
+}
+.form {
+    width: 85%;
+}
+.contact_section .heading {
+    margin-bottom: 70px;
+}
+.contact_section p {
+    margin-bottom: 40px;
+}
+}
+
+
+
+
+@media (max-width:767px) {
+    .image_pic {
+        display: none;
+    }
+    .height {
+
+        text-align: center;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-item {
+        margin: 10px 0;
+        display: inline-flex;
+        justify-content: center;
+    }
+    .feature_content {
+text-align: center;
+        margin-bottom: 45px;
+    }
+    .feature_content p {
+        font-size: 20px;
+       
+    }
+    .feature_content h3 { 
+        font-size: 30px;
+
+    }
+    .phone{
+        width: 60%;
+        margin: auto;
+    }
+    .heading {
+        text-align: center !important;
+    }
+    .details_section .heading span {
+        margin: auto;
+    }    
+
+    .details_section p {
+        margin-bottom: 50px;
+       
+    }
+    .details_section ul li .list_icon {
+        width: 25px;
+        margin-right: 11px;
+        font-size: 17px;
+    }
+    .details_section ul {
+   
+        margin: auto;
+        width: 30%;
+    }
+    .customize_section .heading span {
+        margin: auto;
+    
+    }
+    .testimonial_section p {
+        text-align: center;
+    }
+    .client_details {
+        justify-content: center;
+    }
+    .details p {
+  
+        text-align: start;
+    }
+    .heading span {
+     margin-bottom: 0;
+    }
+    .text-end {
+        text-align: center !important;
+        margin-top: 36px;
+    }
+    .price_table {
+        margin-bottom: 60px;
+    }
+    .left {
+        margin-left: 1px;
+        margin-bottom: 190px;
+    
+    }
+    .form {
+        width: 85%;
+    }
+    .contact_section .heading {
+        margin-bottom: 70px;
+    }
+    .contact_section p {
+        margin-bottom: 40px;
+    }
+}
